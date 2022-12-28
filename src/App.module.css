@@ -1,0 +1,25 @@
+.container {
+  margin: auto;
+  width: 1200px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  color: var(---primary-500);
+}
+
+.container li + li {
+  margin-top: 0.75rem;
+}
+
+.footer {
+  margin-top: 1rem;
+}
